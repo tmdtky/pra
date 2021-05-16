@@ -1,0 +1,36 @@
+# below are ignore files, here is detail about gitignore : https://git-scm.com/docs/gitignore(examples: https://github.com/github/gitignore)
+
+# node_modules
+node_modules
+
+# all .idea
+**/.idea
+
+# npm
+npm-debug.log
+*.log
+*.gz
+
+# express source code
+express
+
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
